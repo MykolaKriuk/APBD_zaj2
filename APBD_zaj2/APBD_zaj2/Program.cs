@@ -25,9 +25,9 @@ static string GetAverage(int[] array)
 static string GetMaxValue(int[] array)
 {
     int max = array[0];
-    foreach (int i in array)
+    foreach (int j in array)
     {
-        if (i > max) max = i;
+        if (j > max) max = j;
     }
 
     return "Max value is " + max;
