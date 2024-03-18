@@ -8,6 +8,7 @@ Console.WriteLine(GetAverage([1,2,3,4,5]));
 
 return;
 
+// Method for finding an average value
 static string GetAverage(int[] array)
 {
     int sum = 0;
