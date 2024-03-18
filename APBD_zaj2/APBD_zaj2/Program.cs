@@ -5,7 +5,7 @@ Console.WriteLine("Hello Modification 2!");
 Console.WriteLine("Hello Modification 3!");
 
 Console.WriteLine(GetAverage([1,2,3,4,5]));
-Console.WriteLine(GetMax([1,23,45,-1,255]));
+Console.WriteLine(GetMAXValue([1,23,45,-1,255]));
 
 return;
 
@@ -22,7 +22,7 @@ static string GetAverage(int[] array)
 }
 
 //Method for finding max value.
-static string GetMax(int[] array)
+static string GetMAXValue(int[] array)
 {
     int max = array[0];
     foreach (int j in array)
