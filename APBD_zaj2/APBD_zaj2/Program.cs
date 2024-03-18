@@ -21,6 +21,7 @@ static string GetAverage(int[] array)
     return "Average is " + (double)sum / array.Length;
 }
 
+//Method for finding max value.
 static string GetMaxValue(int[] array)
 {
     int max = array[0];
